@@ -139,7 +139,7 @@ Mosquito-Mapping
 
 # 👨‍💻 Authors
 
-**Himanshu Sinsinwar**
+**Himanshu**
 
 Graphic Era Deemed to be University Internship Project
 
