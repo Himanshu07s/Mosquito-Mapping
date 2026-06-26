@@ -1,22 +1,77 @@
-# 🦟 Smart Mosquito Mapping and Intelligent Fogging Decision Support System using IoT
+<h1 align="center">
+
+🦟 Smart Mosquito Mapping and Intelligent Fogging Decision Support System using IoT
+
+</h1>
+
+<p align="center">
+
+Real-Time IoT Monitoring • Firebase • Flask • ESP32 • Blynk
+
+</p>
+<p align="center">
+
+<img src="https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python">
+<img src="https://img.shields.io/badge/Flask-Web%20Framework-black?style=for-the-badge&logo=flask">
+<img src="https://img.shields.io/badge/ESP32-IoT-red?style=for-the-badge">
+<img src="https://img.shields.io/badge/Firebase-RealtimeDB-orange?style=for-the-badge&logo=firebase">
+<img src="https://img.shields.io/badge/Blynk-IoT-green?style=for-the-badge">
+<img src="https://img.shields.io/badge/Render-Deployed-purple?style=for-the-badge">
+
+</p>
 
 A real-time IoT-based mosquito surveillance system that monitors environmental conditions, estimates mosquito activity, predicts mosquito risk, and recommends fogging actions using ESP32, Firebase, Flask and Blynk.
 
 ---
 
-# 🌐 Live Dashboard
+## 🌐 Live Demo
 
-### 🔗 https://mosquito-dashboard.onrender.com/
+👉 **Dashboard:** https://mosquito-dashboard.onrender.com/
 
----
+The dashboard updates automatically every **3 seconds** using data stored in Firebase.
 
 # 📸 Dashboard Preview
 
 <p align="center">
-<img src="assets/dashboard.png" width="900">
+<img src="assets/dashboard.png" width="1000">
 </p>
 
 ---
+## 🚀 Key Highlights
+
+- 📡 Real-time IoT Monitoring
+- 🌡 Live Temperature & Humidity
+- 🌧 Rain Detection
+- 🎤 Mosquito Audio Confidence
+- ☁ Firebase Realtime Database
+- 🌐 Live Flask Dashboard
+- 📱 Blynk Mobile App
+- 🔄 Auto Refresh Every 3 Seconds
+- 🚨 Intelligent Fogging Recommendation
+
+## 🔄 Project Workflow
+
+ESP32 Sensors
+
+⬇
+
+Data Processing
+
+⬇
+
+Firebase Realtime Database
+
+⬇
+
+Flask Backend
+
+⬇
+
+Live Dashboard
+
+⬇
+
+Fogging Recommendation
 
 # 📖 Project Overview
 
@@ -97,6 +152,20 @@ The system provides an intelligent and low-cost solution for monitoring mosquito
 
 ---
 
+## 📊 Project Status
+
+✅ ESP32 Firmware Completed
+
+✅ Firebase Integration Completed
+
+✅ Flask Dashboard Completed
+
+✅ Render Deployment Completed
+
+✅ GitHub Repository Completed
+
+🔄 Future Updates Planned
+
 # 📂 Project Structure
 
 ```
@@ -137,15 +206,15 @@ Mosquito-Mapping
 
 ---
 
-# 👨‍💻 Authors
+## 👨‍💻 Developed By
 
 **Himanshu**
 
-Graphic Era Deemed to be University Internship Project
+IoT & Smart Healthcare Internship
+
+Graphic Era Deemed to be University
 
 Department of Computer Science & Engineering
-
----
 
 # ⭐ If you like this project
 
