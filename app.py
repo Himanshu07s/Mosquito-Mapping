@@ -1,20 +1,23 @@
 from flask import Flask, render_template
 import firebase_admin
-from firebase_admin import credentials
-from firebase_admin import db
-from flask import Flask, render_template
-import firebase_admin
 from firebase_admin import credentials, db
+import json
+import os
 
 app = Flask(__name__)
 
 # Firebase Initialization
-cred = credentials.Certificate("firebase-key.json")
 
-firebase_admin.initialize_app(cred, {
-    "databaseURL": "https://mosquito-mapping-default-rtdb.asia-southeast1.firebasedatabase.app/"
-})
+if "FIREBASE_KEY" in os.environ:
+    firebase_config = json.loads(os.environ["FIREBASE_KEY"])
+    cred = credentials.Certificate(firebase_config)
+else:
+    cred = credentials.Certificate("firebase-key.json")
 
+if not firebase_admin._apps:
+    firebase_admin.initialize_app(cred, {
+        "databaseURL": "https://mosquito-mapping-default-rtdb.asia-southeast1.firebasedatabase.app/"
+    })
 
 @app.route("/")
 def dashboard():
